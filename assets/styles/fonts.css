@@ -1,0 +1,38 @@
+/* import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;900&display=swap');
+
+@font-face {
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("/assets/fonts/euclidCircular/Euclid\ Circular\ B\ Light.ttf") format("truetype");	
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/euclidCircular/Euclid\ Circular\ B\ Medium.ttf") format("truetype");	
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/assets/fonts/euclidCircular/Euclid\ Circular\ B\ SemiBold.ttf") format("truetype");	
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/assets/fonts/euclidCircular/Euclid\ Circular\ B\ Bold.ttf.ttf") format("truetype");	
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}

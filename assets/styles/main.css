@@ -1,0 +1,100 @@
+:root {
+    --accent: #1d52b6;
+    --accent-dark: #1a4491;
+    --accent-light: #206af3;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+/* set all header font to euclidVCircular */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "euclidCircular", sans-serif;
+}
+
+.zw__navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    padding: 0 10em;
+}
+
+.zw__header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.zw__header__logo {
+    height: 30px;
+    width: auto;
+    margin: auto 0;
+}
+
+.zw__header__logo a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.zw__header__logo img {
+    height: 100%;
+}
+
+.zw__header__nav_list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.zw__header__nav_list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1em;
+}
+
+.zw__header__nav_list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.zw__header__nav_list li a:hover {
+    color: var(--accent);
+}
+
+.zw__header__sign_in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.zw__header__sign_in a {
+    padding: 0.5em 1em;
+    border: 5px solid red;
+    border-radius: 5px 5px 0px 0px;
+}
+
